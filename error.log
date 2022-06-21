@@ -1,0 +1,20 @@
+94964
+95617
+fatal: not a git repository (or any of the parent directories): .git
+Running 95620
+95730
+fatal: not a git repository (or any of the parent directories): .git
+Running 95732
+95735
+fatal: not a git repository (or any of the parent directories): .git
+Running 95737
+95845
+Emergency shutdown issued after 4 spawns
+PID: 97992 - Tue Jun 21 11:34:38 EDT 2022
+fatal: not a git repository (or any of the parent directories): .git
+PID: 98005 - Tue Jun 21 11:34:44 EDT 2022
+fatal: not a git repository (or any of the parent directories): .git
+PID: 98111 - Tue Jun 21 11:34:50 EDT 2022
+fatal: not a git repository (or any of the parent directories): .git
+PID: 98122 - Tue Jun 21 11:34:55 EDT 2022
+Emergency shutdown issued after 4 spawns
