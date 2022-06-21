@@ -15,5 +15,6 @@ if [ -z "$1" ]; then
     spawn=0
 fi
 
+pip3 install -r requirements.txt
 git pull
 python3 thread.py $spawn -u >> ./error.log 2>&1
