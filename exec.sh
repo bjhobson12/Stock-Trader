@@ -16,4 +16,4 @@ if [ -z "$1" ]; then
 fi
 
 git pull
-/usr/local/bin/python3 thread.py $spawn -u >> ./error.log 2>&1
+python3 thread.py $spawn -u >> ./error.log 2>&1

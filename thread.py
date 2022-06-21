@@ -1,4 +1,4 @@
-# /usr/local/bin/python3 thread.py >> ./error.log 2>&1 
+# python3 thread.py >> ./error.log 2>&1 
 
 import pandas_market_calendars as mcal
 from datetime import timedelta, datetime
@@ -26,7 +26,7 @@ TZ = mcal.get_calendar('NYSE').tz
 def __dispatch__():
     for threads in SCRIPT_PATHS:
         pass
-        #os.system('/usr/local/bin/python3 {} {}'.format(*threads[:2]))
+        #os.system('python3 {} {}'.format(*threads[:2]))
 
     # new process to update codebase and restart server
     os.system("chmod +x {}".format(os.path.join(os.getcwd(), 'exec.sh')))
